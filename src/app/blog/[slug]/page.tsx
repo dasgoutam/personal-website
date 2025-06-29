@@ -25,7 +25,7 @@ export default async function BlogPostPage({ params }: { params: paramsType }) {
         <h2>{post.metadata.title}</h2>
         <p className="text-sm text-muted-foreground">{post.metadata.date}</p>
         {post.metadata.tags.map((tag: string) => (
-          <li>{tag}</li>
+          <li key={tag}>{tag}</li>
         ))}
         <Markdown>{post.content}</Markdown>
       </div>
