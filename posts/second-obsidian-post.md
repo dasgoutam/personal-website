@@ -1,8 +1,6 @@
-
 ---
 title: "My Second Obsidian Post"
 date: "2025-06-28"
-
 ---
 
 # Some Header
