@@ -14,6 +14,13 @@ export function getPostBySlug(slug: string) {
     const fileContents = fs.readFileSync(fullPath, "utf8");
     const { data, content } = matter(fileContents);
 
+    // Convert date to string (YYYY-MM-DD) if it's a Date object
+    let ObsidianDate = data.date;
+    if (typeof ObsidianDate != "string") {
+        ObsidianDate = ObsidianDate.toISOString().split("T")[0];
+    }
+    data.date = ObsidianDate;
+
     return {
         slug: realSlug,
         metadata: data,

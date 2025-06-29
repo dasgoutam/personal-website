@@ -22,8 +22,11 @@ export default async function BlogPostPage({ params }: { params: paramsType }) {
   
     return (
       <div className="prose dark:prose-invert max-w-3xl mx-auto py-12">
-        <h1>{post.metadata.title}</h1>
+        <h2>{post.metadata.title}</h2>
         <p className="text-sm text-muted-foreground">{post.metadata.date}</p>
+        {post.metadata.tags.map((tag: string) => (
+          <li>{tag}</li>
+        ))}
         <Markdown>{post.content}</Markdown>
       </div>
     );
