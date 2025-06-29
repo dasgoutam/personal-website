@@ -8,7 +8,7 @@ tags:
 # Some Header
 
 
-I'll add a backlink to see how it behaves - [[Obsidian-Next JS linking]]
+I'll add a backlink to see how it behaves - [[Linking to Obsidian]]
 
 ## Type 2 Header
 Some content below it
