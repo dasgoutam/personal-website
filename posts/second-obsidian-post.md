@@ -1,6 +1,8 @@
 ---
-title: "My Second Obsidian Post"
-date: "2025-06-28"
+title: My Second Obsidian Post
+date: 2025-06-28
+tags:
+  - Software
 ---
 
 # Some Header

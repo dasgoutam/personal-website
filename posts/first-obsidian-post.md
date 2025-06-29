@@ -1,8 +1,10 @@
 ---
-title: "My First Obsidian Post"
-date: "2025-06-27"
+title: My First Obsidian Post
+date: 2025-06-27
+tags:
+  - General
+  - testing
 ---
-
 # Some Header
 
 This is my first post
