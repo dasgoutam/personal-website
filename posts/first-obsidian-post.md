@@ -1,7 +1,7 @@
 
 ---
 title: "My First Obsidian Post"
-date: "25-06-27"
+date: "2025-06-27"
 
 ---
 

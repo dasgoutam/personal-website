@@ -1,7 +1,7 @@
 
 ---
 title: "Third Note"
-date: "29-06-2025"
+date: "2025-07-01"
 
 ---
 
